@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment 3</title>
     
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -23,9 +23,29 @@
 </head>
 <body>
     <header class="px-50 font-manrope">
+      <!-- nav section -->
+      <nav class="grid lg:grid-cols-3 md:grid-cols-1 pl-60 h-16 pt-6">
+        <div>
+          <h1 class="text-4xl from-stone-800 font-extrabold">Hockey’s</h1>
+        </div>
+        <div >
+          <a  href="Home">Home</a>
+          <a class="pl-4" href="About">About</a>
+          <a class="pl-4" href="Pages">Pages</a>
+          <a class="pl-4" href="Contact">Contact</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <button class="bg-red-500 px-3 text-white pl-4 h-10 w-40 rounded-md">Get Ticket</button>
+        </div>
+      </nav>
         <section>
                 <div class=" flex justify-center items-center py-3.5 ">
                   <img src="./Images/1.png" />
+                </div>
+                <div class="flex justify-center gap-12   text-black  ">
+                  <kbd class="kbd"><</kbd>
+                  <kbd class="kbd">></kbd>
                 </div>
 
         </section>
@@ -39,22 +59,22 @@
             </div>
             <div class="grid   lg:grid-cols-4 md:grid-cols-1   py-10 mx-11">
                 <div class="text-center">
-                    <div class="radial-progress" style="--value:87;" role="progressbar " >87%</div>
+                    <div class="radial-progress text-blue-600 " style="--value:87;" role="progressbar " >87%</div>
                     <h1>Prayer Facility</h1>
                     <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div class="text-center">
-                     <div class="radial-progress" style="--value:20;" role="progressbar">20%</div>
+                     <div class="radial-progress text-red-700 " style="--value:20;" role="progressbar">20%</div>
                      <h1>Experienced Coach</h1>
                      <p>Dit amet consectetur. Condimentum <br> dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
                 <div class="text-center">
-                     <div class="radial-progress" style="--value:60;" role="progressbar">60%</div>
+                     <div class="radial-progress text-orange-500" style="--value:60;" role="progressbar">60%</div>
                      <h1>Senior Player</h1>
                      <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                  </div>
                  <div class="text-center">
-                    <div class="radial-progress" style="--value:80;" role="progressbar">80%</div>
+                    <div class="radial-progress text-green-500" style="--value:80;" role="progressbar">80%</div>
                     <h1>Training Ground</h1>
                     <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
@@ -72,8 +92,8 @@
             <p class="text-2xl from-stone-500">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
         </div>
             <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-2 py-20">
-                <div class="card w-auto bg-base-100 shadow-xl image-full">
-                    <figure><img src="./Images/2.png" alt="Shoes" /></figure>
+                <div class="card w-auto  shadow-xl image-full">
+                    <img src="./Images/2.png" alt="Shoes" />
                     <div class="card-body">
                       <h2 class="card-title">Junior Program</h2>
                       <p>The origins of hockey can be traced back to ancient civilizations, where various cultures played games involving a ball and a stick. The modern form of hockey, as we know it today, has roots in games played in Europe</p>
@@ -82,8 +102,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card w-auto bg-base-100 shadow-xl image-full">
-                    <figure><img src="./Images/3.png" alt="Shoes" /></figure>
+                  <div class="card w-auto  shadow-xl image-full">
+                    <img src="./Images/3.png" alt="Shoes" />
                     <div class="card-body">
                       <h2 class="card-title ">Teenager Program</h2>
                       <p>Field hockey, a precursor to ice hockey, has a long history and was played in various forms in different cultures. It became particularly popular in England during the 18th and 19th centuries.</p>
@@ -94,8 +114,8 @@
                   </div>
             </div>
        
-            <div class="card  bg-base-100 shadow-xl image-full">
-                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+            <div class="card   shadow-xl image-full">
+                <img src="./Images/4.png" alt="" />
                 <div class="card-body">
                   <h2 class="card-title">Professional Program</h2>
                   <p class=" pr-96 ">It seems like there might be a slight misunderstanding. It looks like you  want a Python program related to a "jokhe" game with some Lorem Ipsum. If by "jokhe" you meant a game or a specific concept, could you please provide more details or clarify? I'll be happy to help you create a Python program or provide information accordingly.</p>
@@ -108,12 +128,23 @@
 
         <!-- product section -->
         <section>
-
+          <div class="text-center py-20">
+            <h1 class="text-4xl from-stone-800 font-extrabold">Our New Products</h1>
+            <h1 class="text-2xl from-stone-500 pt-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </h1>
+          </div>
         <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-3 py-20">
             
             <div class="card card-side bg-base-100 shadow-xl">
                 <figure><img src="./Images/5.png" alt="Movie"/></figure>
                 <div class="card-body">
+                  <div class="flex  items-center">
+                    <i class="fa-solid fa-star text-yellow-500"></i>
+                    <p class="pl-2">5.0</p>
+                    <i class="fa-solid fa-eye "></i>
+                    <p class="pl-2">20</p>
+                    <i class="fa-solid fa-heart text-red-600"></i>
+                    <p class="pl-2">39</p>
+                  </div>
                   <h2 class="card-title">World Cup Flags Football</h2>
                   <p>consectetur adipiscing elit. Fusce vel sollicitudin nulla. </p>
                   <div class="flex">
@@ -127,6 +158,14 @@
             <div class="card card-side bg-base-100 shadow-xl">
                 <figure><img src="./Images/6.png" alt="Movie"/></figure>
                 <div class="card-body">
+                  <div class="flex  items-center">
+                    <i class="fa-solid fa-star text-yellow-500"></i>
+                    <p class="pl-2">5.0</p>
+                    <i class="fa-solid fa-eye "></i>
+                    <p class="pl-2">20</p>
+                    <i class="fa-solid fa-heart text-red-600"></i>
+                    <p class="pl-2">39</p>
+                  </div>
                   <h2 class="card-title">World Cup Flags Football</h2>
                   <p>consectetur adipiscing elit. Fusce vel sollicitudin nulla. </p>
                   <div class="flex">
@@ -140,6 +179,14 @@
             <div class="card card-side bg-base-100 shadow-xl">
                 <figure><img src="./Images/7.png" alt="Movie"/></figure>
                 <div class="card-body">
+                  <div class="flex  items-center">
+                    <i class="fa-solid fa-star text-yellow-500"></i>
+                    <p class="pl-2">5.0</p>
+                    <i class="fa-solid fa-eye "></i>
+                    <p class="pl-2">20</p>
+                    <i class="fa-solid fa-heart text-red-600"></i>
+                    <p class="pl-2">39</p>
+                  </div>
                   <h2 class="card-title">Cap For Hockeys</h2>
                   <p>consectetur adipiscing elit. Fusce vel sollicitudin nulla. </p>
                   <div class="flex">
@@ -152,6 +199,14 @@
               <div class="card card-side bg-base-100 shadow-xl">
                 <figure><img src="./Images/8.png" alt="Movie"/></figure>
                 <div class="card-body">
+                  <div class="flex  items-center">
+                    <i class="fa-solid fa-star text-yellow-500"></i>
+                    <p class="pl-2">5.0</p>
+                    <i class="fa-solid fa-eye "></i>
+                    <p class="pl-2">20</p>
+                    <i class="fa-solid fa-heart text-red-600"></i>
+                    <p class="pl-2">39</p>
+                  </div>
                   <h2 class="card-title">World Cup Flags Football</h2>
                   <p>consectetur adipiscing elit. Fusce vel sollicitudin nulla. </p>
                   <div class="flex">
@@ -165,6 +220,14 @@
             <div class="card card-side bg-base-100 shadow-xl">
                 <figure><img src="./Images/9.png" alt="Movie"/></figure>
                 <div class="card-body">
+                  <div class="flex  items-center">
+                    <i class="fa-solid fa-star text-yellow-500"></i>
+                    <p class="pl-2">5.0</p>
+                    <i class="fa-solid fa-eye "></i>
+                    <p class="pl-2">20</p>
+                    <i class="fa-solid fa-heart text-red-600"></i>
+                    <p class="pl-2">39</p>
+                  </div>
                   <h2 class="card-title">World Cup Flags Football</h2>
                   <p>consectetur adipiscing elit. Fusce vel sollicitudin nulla. </p>
                   <div class="flex">
@@ -178,6 +241,14 @@
             <div class="card card-side bg-base-100 shadow-xl">
                 <figure><img src="./Images/10.png" alt="Movie"/></figure>
                 <div class="card-body">
+                  <div class="flex  items-center">
+                    <i class="fa-solid fa-star text-yellow-500"></i>
+                    <p class="pl-2">5.0</p>
+                    <i class="fa-solid fa-eye "></i>
+                    <p class="pl-2">20</p>
+                    <i class="fa-solid fa-heart text-red-600"></i>
+                    <p class="pl-2">39</p>
+                  </div>
                   <h2 class="card-title">World Cup Flags Football</h2>
                   <p>consectetur adipiscing elit. Fusce vel sollicitudin nulla. </p>
                   <div class="flex">
@@ -195,7 +266,7 @@
             <h1 class="text-4xl from-stone-800 font-extrabold">Clients Question</h1>
             <p class="text-2xl from-stone-500 py-7">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
         </div>
-        <div class=" grid lg:grid-cols-2 md:grid-cols-1 py-10 ">
+        <div class=" grid lg:grid-cols-2 md:grid-cols-1 py-32 ">
             <div >
                 <img src="./Images/11.png" />
               </div>
@@ -268,7 +339,7 @@
         <h1 class="text-4xl from-stone-800 font-extrabold pt-5">Get in Teach</h1>
         <h1 class="text-2xl from-stone-500 py-2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </h1>
       </div>
-      <div class="">
+      <div class="pt-20">
         <div class=" grid lg:grid-cols-2 md:grid-cols-1 gap-2">
           <div>
             <div class="pb-3 pt-4 ">
@@ -328,7 +399,7 @@
 
     <!-- socile media icon section -->
       <section class=" bg-slate-300 h-40 mt-5 rounded-md">
-        <div class=" mx-96 px-56 py-12">
+        <div class=" grid md:grid-cols-1 mx-96 px-56 py-12">
         <header class="footer-title pl-7" >Social</header> 
         <div class="flex  ">
           <a ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
@@ -339,7 +410,7 @@
       </section>
 
     </main>
-    <footer class="footer p-10 bg-slate-900 text-white">
+    <footer class=" footer p-10 bg-slate-900 text-white">
       <aside>
         <h1 class="text-2xl font-bold">Get In Touch</h1>
         <p>
